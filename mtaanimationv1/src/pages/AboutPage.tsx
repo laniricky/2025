@@ -19,7 +19,7 @@ const AboutPage: React.FC = () => {
             <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">Our Story</h2>
             <div className="prose prose-lg dark:prose-invert">
               <p>
-                Mtaanimation was founded in 2023 by Fredrick Lani, an award-winning animator with a passion for storytelling and a vision to create meaningful animated content that resonates with audiences of all ages.
+                Mtaanimation was founded in 2022 by Fredrick Lani, an award-winning animator with a passion for storytelling and a vision to create meaningful animated content that resonates with audiences of all ages.
               </p>
               <p>
                 What began as a small independent project quickly grew into a collaborative studio of talented artists, writers, and animators united by a shared commitment to creating visually stunning and emotionally impactful stories.

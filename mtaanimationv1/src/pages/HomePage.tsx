@@ -58,11 +58,11 @@ const HomePage: React.FC = () => {
         ) : (
           <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center items-center text-center text-white">
             <div className="max-w-3xl mx-auto">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-amber-400 to-red-500 text-transparent bg-clip-text">
                 Mtaanimation
               </h1>
               <p className="text-xl md:text-2xl mb-8 text-gray-200">
-                Immerse yourself in captivating animated stories that spark imagination and inspire creativity.
+                Immerse yourself in captivating animated stories that spark Imagination, Motion, Art and Endless Creativity.
               </p>
               
               <div className="mb-12">
