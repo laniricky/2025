@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Twitter, Youtube, Facebook } from 'lucide-react';
+import { Instagram, Twitter, Youtube, Facebook, X} from 'lucide-react';
 
 const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
@@ -16,25 +16,37 @@ const Footer: React.FC = () => {
               </span>
             </Link>
             <p className="text-gray-300 mb-6 max-w-md">
-              Creating captivating animated stories that inspire imagination and creativity in viewers of all ages.
+              Creating captivating animated stories that inspire Imagination, Motion, Art and Endless creativity in viewers of all ages.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
+              <a href="https://instagram.com/mtaanimation" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
                 <Instagram className="h-6 w-6" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
-                <Twitter className="h-6 w-6" />
+              <a href="https://x.com/mtaanimation" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
+                <X className="h-6 w-6" />
                 <span className="sr-only">Twitter</span>
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
+              <a href="https://youtube.com/@mtaanimation0" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
                 <Youtube className="h-6 w-6" />
                 <span className="sr-only">YouTube</span>
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
+              <a href="https://facebook.com/mtaanimation" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-amber-400 transition-colors">
                 <Facebook className="h-6 w-6" />
                 <span className="sr-only">Facebook</span>
               </a>
+              <a href="https://tiktok.com/@mtaanimation" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-pink-500 transition-colors">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                  className="h-6 w-6"
+                  fill="currentColor"
+                >
+                  <path d="M448,209.9v125.7c0,97.2-78.8,176-176,176s-176-78.8-176-176c0-74.3,47.2-137.5,113-163.7V368c0,30.9,25.1,56,56,56s56-25.1,56-56V0h63.9c5.3,52.5,45.5,94.4,96.1,101.9V209.9z"/>
+                </svg>
+                <span className="sr-only">TikTok</span>
+              </a>
+
             </div>
           </div>
           
