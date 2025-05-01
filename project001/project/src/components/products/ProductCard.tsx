@@ -38,7 +38,7 @@ const ProductCard = ({ product, index }: ProductCardProps) => {
           <div>
             <span className="text-gray-500 dark:text-gray-400 text-sm">Starting at</span>
             <p className="text-2xl font-bold text-gray-900 dark:text-white">
-              ${product.price.monthly}
+              KSH.{product.price.monthly}
               <span className="text-sm font-normal text-gray-500">/mo</span>
             </p>
           </div>

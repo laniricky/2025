@@ -15,9 +15,9 @@ export const products: Product[] = [
     ],
     screenshot: 'https://images.pexels.com/photos/7654816/pexels-photo-7654816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     price: {
-      monthly: 149,
-      yearly: 1490,
-      lifetime: 4990
+      monthly: 1490,
+      yearly: 14900,
+      lifetime: 49900
     },
     category: 'Business Intelligence'
   },
@@ -35,9 +35,9 @@ export const products: Product[] = [
     ],
     screenshot: 'https://images.pexels.com/photos/6332473/pexels-photo-6332473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     price: {
-      monthly: 99,
-      yearly: 990,
-      lifetime: 2990
+      monthly: 990,
+      yearly: 9900,
+      lifetime: 29900
     },
     category: 'Project Management'
   },
@@ -55,9 +55,9 @@ export const products: Product[] = [
     ],
     screenshot: 'https://images.pexels.com/photos/5380664/pexels-photo-5380664.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     price: {
-      monthly: 199,
-      yearly: 1990,
-      lifetime: 5990
+      monthly: 1990,
+      yearly: 19900,
+      lifetime: 59900
     },
     category: 'Security'
   },
@@ -75,9 +75,9 @@ export const products: Product[] = [
     ],
     screenshot: 'https://images.pexels.com/photos/3183186/pexels-photo-3183186.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     price: {
-      monthly: 129,
-      yearly: 1290,
-      lifetime: 3990
+      monthly: 1290,
+      yearly: 12900,
+      lifetime: 39900
     },
     category: 'CRM'
   }

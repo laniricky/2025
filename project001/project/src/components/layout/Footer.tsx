@@ -108,13 +108,13 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="mr-2 text-gray-400 flex-shrink-0 mt-1" />
                 <span className="text-gray-400">
-                  123 Innovation Drive, Tech Park, San Francisco, CA 94107
+                  Nairobi, Kenya
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="mr-2 text-gray-400" />
                 <a href="tel:+15551234567" className="text-gray-400 hover:text-white transition-colors">
-                  +1 (555) 123-4567
+                  +254 (700) 123-456
                 </a>
               </li>
               <li className="flex items-center">

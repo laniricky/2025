@@ -149,7 +149,7 @@ const ProductDetail = () => {
                 </div>
                 {selectedPlan === 'yearly' && (
                   <span className="text-sm text-green-600 dark:text-green-400">
-                    Save ${product.price.monthly * 12 - product.price.yearly} per year
+                    Save KSH {product.price.monthly * 12 - product.price.yearly} per year
                   </span>
                 )}
               </div>
